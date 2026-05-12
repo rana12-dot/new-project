@@ -1,0 +1,229 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "com.stubserver.backend.config.AppProperties",
+      "sourceType": "com.stubserver.backend.config.AppProperties"
+    },
+    {
+      "name": "app.batch",
+      "type": "com.stubserver.backend.config.AppProperties$Batch",
+      "sourceType": "com.stubserver.backend.config.AppProperties",
+      "sourceMethod": "public com.stubserver.backend.config.AppProperties.Batch getBatch() "
+    },
+    {
+      "name": "app.core-server",
+      "type": "com.stubserver.backend.config.AppProperties$CoreServer",
+      "sourceType": "com.stubserver.backend.config.AppProperties",
+      "sourceMethod": "public com.stubserver.backend.config.AppProperties.CoreServer getCoreServer() "
+    },
+    {
+      "name": "app.jwt",
+      "type": "com.stubserver.backend.config.AppProperties$Jwt",
+      "sourceType": "com.stubserver.backend.config.AppProperties",
+      "sourceMethod": "public com.stubserver.backend.config.AppProperties.Jwt getJwt() "
+    },
+    {
+      "name": "table",
+      "type": "com.stubserver.backend.config.TableNames",
+      "sourceType": "com.stubserver.backend.config.TableNames"
+    },
+    {
+      "name": "table.assigned-services",
+      "type": "com.stubserver.backend.config.TableNames$AssignedServices",
+      "sourceType": "com.stubserver.backend.config.TableNames",
+      "sourceMethod": "public com.stubserver.backend.config.TableNames.AssignedServices getAssignedServices() "
+    },
+    {
+      "name": "table.audit-logs",
+      "type": "com.stubserver.backend.config.TableNames$AuditLogs",
+      "sourceType": "com.stubserver.backend.config.TableNames",
+      "sourceMethod": "public com.stubserver.backend.config.TableNames.AuditLogs getAuditLogs() "
+    },
+    {
+      "name": "table.master-catalog",
+      "type": "com.stubserver.backend.config.TableNames$MasterCatalog",
+      "sourceType": "com.stubserver.backend.config.TableNames",
+      "sourceMethod": "public com.stubserver.backend.config.TableNames.MasterCatalog getMasterCatalog() "
+    },
+    {
+      "name": "table.vs-details",
+      "type": "com.stubserver.backend.config.TableNames$VsDetails",
+      "sourceType": "com.stubserver.backend.config.TableNames",
+      "sourceMethod": "public com.stubserver.backend.config.TableNames.VsDetails getVsDetails() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.batch.java-start",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.AppProperties$Batch"
+    },
+    {
+      "name": "app.batch.java-stop",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.AppProperties$Batch"
+    },
+    {
+      "name": "app.core-server.name",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.AppProperties$CoreServer"
+    },
+    {
+      "name": "app.core-server.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.stubserver.backend.config.AppProperties$CoreServer"
+    },
+    {
+      "name": "app.cors-origin",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.AppProperties"
+    },
+    {
+      "name": "app.dataset-paths",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.AppProperties"
+    },
+    {
+      "name": "app.db-type",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.AppProperties"
+    },
+    {
+      "name": "app.health-api",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.AppProperties"
+    },
+    {
+      "name": "app.jwt.access-expires-seconds",
+      "type": "java.lang.Long",
+      "sourceType": "com.stubserver.backend.config.AppProperties$Jwt"
+    },
+    {
+      "name": "app.jwt.access-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.AppProperties$Jwt"
+    },
+    {
+      "name": "app.jwt.refresh-expires-seconds",
+      "type": "java.lang.Long",
+      "sourceType": "com.stubserver.backend.config.AppProperties$Jwt"
+    },
+    {
+      "name": "app.jwt.refresh-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.AppProperties$Jwt"
+    },
+    {
+      "name": "app.jwt.reset-expires-seconds",
+      "type": "java.lang.Long",
+      "sourceType": "com.stubserver.backend.config.AppProperties$Jwt"
+    },
+    {
+      "name": "app.jwt.reset-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.AppProperties$Jwt"
+    },
+    {
+      "name": "app.prod-url",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.AppProperties"
+    },
+    {
+      "name": "app.reqresp-log-dir",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.AppProperties"
+    },
+    {
+      "name": "app.server-log-dir",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.AppProperties"
+    },
+    {
+      "name": "table.assigned-services.qa",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.TableNames$AssignedServices"
+    },
+    {
+      "name": "table.assigned-services.uat",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.TableNames$AssignedServices"
+    },
+    {
+      "name": "table.audit-logs.qa",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.TableNames$AuditLogs"
+    },
+    {
+      "name": "table.audit-logs.uat",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.TableNames$AuditLogs"
+    },
+    {
+      "name": "table.daily-metrics",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.TableNames"
+    },
+    {
+      "name": "table.execution-mode",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.TableNames"
+    },
+    {
+      "name": "table.live-urls",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.TableNames"
+    },
+    {
+      "name": "table.master-catalog.qa",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.TableNames$MasterCatalog"
+    },
+    {
+      "name": "table.master-catalog.uat",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.TableNames$MasterCatalog"
+    },
+    {
+      "name": "table.monthly-metrics",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.TableNames"
+    },
+    {
+      "name": "table.port-range",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.TableNames"
+    },
+    {
+      "name": "table.refresh-tokens",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.TableNames"
+    },
+    {
+      "name": "table.response-time",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.TableNames"
+    },
+    {
+      "name": "table.users",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.TableNames"
+    },
+    {
+      "name": "table.vs-catalog",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.TableNames"
+    },
+    {
+      "name": "table.vs-details.qa",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.TableNames$VsDetails"
+    },
+    {
+      "name": "table.vs-details.uat",
+      "type": "java.lang.String",
+      "sourceType": "com.stubserver.backend.config.TableNames$VsDetails"
+    }
+  ],
+  "hints": []
+}
